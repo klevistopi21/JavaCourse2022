@@ -1,4 +1,4 @@
-package start.fundamentals;
+package Start.Fundamentals;
 
 public class Dog {
     //karakteristika/vecori => variabla (instance)

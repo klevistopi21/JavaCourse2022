@@ -8,8 +8,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Shkruaj vleren e temperatures se ujit");
-        double temperature = scanner.nextDouble();
+        double temperature =scanner.nextDouble();
         conditions.checkWaterTemp(temperature);
+
 
         System.out.println("Jep numrin e pare");
         int nr1 = scanner.nextInt();

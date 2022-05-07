@@ -11,16 +11,20 @@ public class Main {
         numbers[2] = 7;
         numbers[3] = 9;
         numbers[4] = 11;
-        //      numbers[5] = 13; => ArrayIndexOutOfBoundsException
-
+        //numbers[5] = 13; => ArrayIndexOutOfBoundsException
 
         int numriNePozicioninO = numbers[0];
         int numriNePozicionin1 = numbers[1];
         System.out.println("Numri ne pozicionin 0: " + numriNePozicioninO);
-        System.out.println("Numri ne pozicionin 1: " + numriNePozicionin1);
+        System.out.println("Numri ne pozicionin 3: " + numriNePozicionin1);
 
 //        int numriNePozicionin5 = numbers[5]; => ArrayIndexOutOfBoundsException
 //        System.out.println("Numri ne pozicionin 5: "+numriNePozicionin5);
+
+
+
+
+
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Sa numra kerkon te japesh?");

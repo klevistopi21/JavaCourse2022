@@ -13,6 +13,7 @@ public class MultidimensionalArrayHelper {
 
     public void displayGrades() {
         for (int i = 0; i < rowsCount; i++) {
+
             for (int j = 0; j < colsCount; j++) {
                 System.out.println("Nota per studentin " + (i + 1) + " dhe lenden " + (j + 1) + " eshte " + grades[i][j]);
             }

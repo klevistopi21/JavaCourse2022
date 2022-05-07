@@ -6,7 +6,7 @@ public class Main {
         Student student1 = new Student("Beni", "Hoxha", 20, 'M', grades);
         student1.displayData();
 
-        Student student2 = new Student("Ana", "Hoxha", 19, 'F');
+        Student student2 = new Student ("Ana", "Hoxha", 19, 'F');
         student2.displayData();
 
         Student anonimStudent = new Student();

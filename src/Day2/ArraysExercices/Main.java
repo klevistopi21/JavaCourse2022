@@ -13,46 +13,46 @@ public class Main {
             int nr = scanner.nextInt();
             userNumbers[i] = nr;
         }
-        ArrayHelper arrayHelper = new ArrayHelper(userNumbers);
-        arrayHelper.displayElements();
+        ArrayHelper arrayHelper1 = new ArrayHelper(userNumbers);
+        arrayHelper1.displayElements();
 
-        int sum = arrayHelper.findSum();
+        int sum = arrayHelper1.findSum();
         System.out.println("Shuma e elementeve te ruajtura ne array eshte: " + sum);
 
-        double average = arrayHelper.findAverage();
+        double average = arrayHelper1.findAverage();
         System.out.println("Mesatarja e elementeve te ruajtuara ne array eshte: " + average);
 
         System.out.println("Elementet tek te ruajtur ne array jane: ");
-        arrayHelper.displayOddElements();
+        arrayHelper1.displayOddElements();
 
         System.out.println("Elementet tek te ruajtur ne array sipas menyres 2 jane: ");
-        int[] oddNumbers = arrayHelper.displayOddElements2();
+        int[] oddNumbers = arrayHelper1.displayOddElements2();
         ArrayHelper arrayHelperForOddNumber = new ArrayHelper(oddNumbers);
         arrayHelperForOddNumber.displayElements();
 
 //        System.out.println("Reverse elements: ");
-//        int[] reverseElements = arrayHelper.reverseElements();
+//        int[] reverseElements = arrayHelper1.reverseElements();
 //        ArrayHelper arrayHelperForReverseElements = new ArrayHelper(reverseElements);
 //        arrayHelperForReverseElements.displayElements();
 
         System.out.println("Reverse elements sipas menyres 2: ");
-        int[] reverseElements2 = arrayHelper.reverseElements2();
+        int[] reverseElements2 = arrayHelper1.reverseElements2();
         ArrayHelper arrayHelperForReverseElements2 = new ArrayHelper(reverseElements2);
         arrayHelperForReverseElements2.displayElements();
 
-        arrayHelper.countOddsAndEvenElements();
+        arrayHelper1.countOddsAndEvenElements();
 
         System.out.println("Duplikime te elementeve: ");
-        arrayHelper.findDuplicates();
+        arrayHelper1.findDuplicates();
 
-        int secondLargestElement = arrayHelper.findSecondLargestElement();
+        int secondLargestElement = arrayHelper1.findSecondLargestElement();
         System.out.println("Elementi i dyte me i madh eshte: " + secondLargestElement);
 
-        int max = arrayHelper.findMax();
+        int max = arrayHelper1.findMax();
         System.out.println("Elementi me i madh ne array eshte: " + max);
 
         System.out.println("Jep shumen: ");
         int sumValue = scanner.nextInt();
-        arrayHelper.findAllPairsSumEqualsTo(sumValue);
+        arrayHelper1.findAllPairsSumEqualsTo(sumValue);
     }
 }

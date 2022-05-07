@@ -30,7 +30,7 @@ public class Conditions {
             System.out.println("Water is in normal conditions");
         }
     }
-
+//gjej me te madhin nga 3 numrat
     public void findMax(int a, int b, int c) {
         int max;
         if (a > b && a > c) {
@@ -43,7 +43,7 @@ public class Conditions {
         System.out.println("Numri me i madh eshte: " + max);
     }
 
-    public boolean findIfOdd(int nr) {
+    public boolean findIfEven(int nr) {
         if (nr % 2 == 0) {
             return true;
         }

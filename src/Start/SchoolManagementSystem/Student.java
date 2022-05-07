@@ -9,6 +9,7 @@ public class Student {
     private char gender;
     private int[] grades;
 
+    //konstruktor pa parametra
     public Student() {
         this.name = "anonim";
         this.surname = "anonim";
@@ -16,7 +17,7 @@ public class Student {
         this.gender = 'U';
         this.grades = new int[0];
     }
-
+    //konstruktor me parametra
     public Student(String name,String surname, int age, char gender, int[] grades){
         this.name = name;
         this.surname = surname;

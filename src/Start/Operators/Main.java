@@ -16,6 +16,7 @@ public class Main {
 
         int z = 5;
         System.out.println(z--);
+        System.out.println("second ----->  is = " + z);
 
     }
 }

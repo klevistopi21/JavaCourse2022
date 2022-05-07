@@ -3,6 +3,8 @@ package Start.Math;
 public class Calculator {
     private double nr1;
     private double nr2;
+    //private  double nr3;
+
 
     //constuctor
     //access modifier, emri i klases, (variablat e instances qe duam t'u japim vleredhenie),{trupi i konstruktorit}
@@ -10,6 +12,8 @@ public class Calculator {
         this.nr1 = nr1;
         this.nr2 = nr2;
     }
+//    public Calculator() {
+//    }
 
     public void gjejShumen() {
 //        double shuma = 0.0;

@@ -6,9 +6,16 @@ public class Sparrow extends Bird implements Flyable {
     }
 
     @Override
-    public void fly() {
-        System.out.println("Sparrow flying high...");
+    public void move() {
+
     }
+
+    @Override
+    public void fly() {
+        System.out.println("flying");
+    }
+
+
     // We added the Flyable interface is because
     // there are birds like chickens who cannot fly
     // so we cannot use the fly method for all birds

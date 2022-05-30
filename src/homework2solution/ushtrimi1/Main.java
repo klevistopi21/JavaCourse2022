@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Proportion proportion =new Proportion();
-        Scanner scanner = new Scanner(System.in);
+        Proportion theInstanceOfProportionClass = new Proportion();
+        Scanner scannerInstanceOfTheScannerObject = new Scanner(System.in);
 
         System.out.println("Vendos numrin :" );
-        int nr = scanner.nextInt();
+        int nr = scannerInstanceOfTheScannerObject.nextInt();
 
-        boolean isPro=  proportion.finPro(nr);
+        boolean isPro=  theInstanceOfProportionClass.finPro(nr);
         if (isPro){
             System.out.println("Numri eshte perpjestues me 5");
         }else {

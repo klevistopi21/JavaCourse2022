@@ -8,8 +8,8 @@ public class Main {
         System.out.println("Fut numrin: ");
         int numer = scanner.nextInt();
 
-        Numri numri = new Numri();
-        boolean eshteAferNumrit100 = numri.eshteAfer(numer);
+        Numri numri1 = new Numri();
+        boolean eshteAferNumrit100 = numri1.isCloseTo(numer);
         System.out.println("Eshte afer numer 100: " + eshteAferNumrit100);
 
 

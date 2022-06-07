@@ -6,14 +6,16 @@ public class Sparrow extends Bird implements Flyable {
     }
 
     @Override
-    public void move() {
-
-    }
-
-    @Override
     public void fly() {
-        System.out.println("flying");
+        System.out.println(" Harabeli fluturon");
     }
+
+//    @Override
+//    public void move() {
+
+
+    }
+
 
 
     // We added the Flyable interface is because
@@ -23,4 +25,4 @@ public class Sparrow extends Bird implements Flyable {
     // define this fly() by defining its own class
     // called Flyable. A method with its own class is
     // call the Interface.
-}
+//}

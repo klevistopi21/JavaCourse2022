@@ -1,15 +1,18 @@
 package Oop2;
 
-public abstract class Animal {
+public class  Animal {
     int age;
     String gender;
     int weightInKg;
 
-    // Here we ara gone def. the constructor....ok?
+    // Here we are gone def. the constructor....ok?
     public Animal(int age, String gender, int weightInKg) {
         this.age = age;
         this.gender = gender;
         this.weightInKg = weightInKg;
+    }
+
+    public Animal() {
     }
 
     public void eat(){
@@ -18,5 +21,5 @@ public abstract class Animal {
     public void sleep() {
         System.out.println("Sleeping");
     }
-public abstract void move();
+//public abstract void move();
 }

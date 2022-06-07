@@ -1,29 +1,36 @@
 package Oop1;
 
 public class Earth {
+    //Reshat.speak();
+    //Human human1 = new Human("Bali",22,34,"yellow");
     public static void main(String[] args) {
-        Human Reshat;
+
+       Human Klajdi;
         //declaring a new object
-        Reshat = new Human("Reshat",21,81,"black");
-        Human ReshatFriend = new Human("Arlind",22,81,"yellow");
+        Klajdi = new Human("Klajdi",21,81,"black");
+        Human ReshatFriend = new Human("Klajdi",21,81,"black");
 
 
         // Assigning attributes to the object
-//        Reshat.age = 20;
-//        Reshat.eyeColor = "yellow";
-//        Reshat.heightInInches = 81;
-//        Reshat.name = " Reshat Nela";
-//
-//        Human ReshatFriend = new Human();
-//        ReshatFriend.age = 20;
-//        ReshatFriend.eyeColor = "yellow";
-//        ReshatFriend.heightInInches = 81;
-//        ReshatFriend.name = " Reshat Nela";
+//       Klajdi.age = 20;
+//        Klajdi.eyeColor = "yellow";
+//        Klajdi.heightInInches = 81;
+//        Klajdi.name = " Klajdi 007";
+
+    //    Human ReshatFriend = new Human();
+        ReshatFriend.age = 20;
+        ReshatFriend.eyeColor = "yellow";
+        ReshatFriend.heightInInches = 81;
+        ReshatFriend.name = " Reshat Nela";
 
 
+        System.out.println(Klajdi.age);
+        System.out.println("lart eshte vlera e age jo e klajdit" );
+        System.out.println();
 
-        Reshat.speak();
-        Reshat.eat();
-        ReshatFriend.speak();
+        Klajdi.speak();
+        Klajdi.walk();
+        ReshatFriend.eat();
+
     }
 }

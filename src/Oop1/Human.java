@@ -1,19 +1,18 @@
 package Oop1;
 
 public class Human {
-    //declaring human attributes
+    //declaring human attributes nuk kemi inicializim per momentin
     String name;
     int age;
     int heightInInches;
     String eyeColor;
 
-
-    public Human(String name, int age, int heightInInches, String eyeColor) {
-        this.name = name;
+public Human(String name, int age, int heightInInches, String eyeColor) {
+       this.name = name;
         this.age = age;
         this.heightInInches = heightInInches;
-        this.eyeColor = eyeColor;
-    }
+       this.eyeColor = eyeColor;
+  }
 
     // Defining human behaviors
     public void  speak (){
@@ -23,12 +22,15 @@ public class Human {
     }
     public void eat () {
         System.out.println("eating");
+        //int shuma = 0;
+        //shuma = 4+6;
+       // return 8;
     }
     public void walk () {
         System.out.println("walking");
     }
 
     public void work () {
-        System.out.println("warking");
+        System.out.println("working");
     }
 }

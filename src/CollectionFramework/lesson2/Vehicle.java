@@ -6,16 +6,6 @@ public class Vehicle {
     int price;
     boolean fourDrive;
 
-    @Override
-    public String toString() {
-        return "Vehicle{" +
-                "make='" + make + '\'' +
-                ", model='" + model + '\'' +
-                ", price=" + price +
-                ", fourDrive=" + fourDrive +
-                '}';
-    }
-
     public String getMake() {
         return make;
     }
@@ -38,6 +28,16 @@ public class Vehicle {
 
     public void setPrice(int price) {
         this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", price=" + price +
+                ", fourDrive=" + fourDrive +
+                '}';
     }
 
     public boolean isFourDrive() {

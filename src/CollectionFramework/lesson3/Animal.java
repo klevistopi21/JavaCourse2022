@@ -15,10 +15,6 @@ public class Animal {
         return age == animal.age && Objects.equals(name, animal.name);
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(name, age);
-    }
 
     @Override
     public String toString() {
